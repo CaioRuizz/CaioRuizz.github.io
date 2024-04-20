@@ -7,3 +7,22 @@
   height: 93vh;
   background-color: #ddd;
 }
+
+.image {
+  width: 250px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.lista {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.features {
+  list-style-type: decimal;
+}

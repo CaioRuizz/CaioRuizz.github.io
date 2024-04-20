@@ -19,5 +19,6 @@ export class HeaderComponent {
   irParaProjetos = async  () => {
     await this.router.navigate(['projetos']);
   }
+
   protected readonly window = window;
 }

@@ -8,6 +8,7 @@ import {MatIconModule} from "@angular/material/icon";
 import { HeaderComponent } from './components/header/header.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
 import { HomeComponent } from './components/home/home.component';
+import {MatCard, MatCardContent, MatCardTitle} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -20,6 +21,9 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
+    MatCard,
+    MatCardTitle,
+    MatCardContent,
   ],
   providers: [
     provideAnimationsAsync()
